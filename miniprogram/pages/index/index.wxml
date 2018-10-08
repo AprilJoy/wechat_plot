@@ -1,0 +1,45 @@
+<view class='container'>
+
+  <view class="userinfo">
+    <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+    ></button>
+
+  <text class='window'>这是一个小程序页面</text>
+  </view>
+  
+
+    <view class="page__bd page__bd_spacing">
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder">
+            <navigator url="../baidu/index" open-type="navigate" >
+            <text class='page__desc'>百度年报</text>
+      
+            </navigator>
+            </view>
+            </view>
+        </view>
+
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+        </view>
+        <view class="weui-flex">
+            <view><view class="placeholder">weui</view></view>
+            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+            <view><view class="placeholder">weui</view></view>
+        </view>
+    </view>
+
+    
+</view>
